@@ -86,7 +86,7 @@ resource "azurerm_mssql_server" "sql_server" {
 resource "azurerm_mssql_database" "sql_db" {
   name      = "sqldb-${var.class_name}-${var.student_name}-${var.environment}-${random_integer.deployment_id_suffix.result}"
   server_id = azurerm_mssql_server.sql_server.id
-  sku_name  = "Basic"   # lab friendly
+  sku_name  = "Basic" # lab friendly
 
   max_size_gb = 2
 

@@ -45,3 +45,16 @@ variable "class_name" {
   type        = string
   default     = "dsba6190"
 }
+
+variable "sql_admin_login" {
+  description = "SQL Server admin username"
+  type        = string
+  default     = "sqladminuser"
+}
+
+variable "sql_admin_password" {
+  description = "SQL Server admin password (lab only, do not reuse in real life)"
+  type        = string
+  sensitive   = true
+  default     = "P@ssword1234!"
+}

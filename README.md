@@ -7,7 +7,6 @@
 In your GitHub repo, create the follow secrets with the specified values.
 
 - ARM_CLIENT_ID: `c075ec05-db99-4195-ba8b-f0d42995e5e1`
-- ARM_CLIENT_SECRET: `IT.8Q~enI2Hyp1hhhseI9cG6C7O7J~uzQeeIBbRm`
 - ARM_SUBSCRIPTION_ID: `b92ea061-7db2-40ee-ad4a-cee871832b64`
 - ARM_TENANT_ID: `88d59d7d-aecb-41b2-90c5-55595de02536`
 
